@@ -14,7 +14,7 @@ class Bmi {
     //int healthyBmiRange = json['data']['healthyBmiRange'];
     return Bmi(
       bmi: json['data']['bmi'],
-      healthyBmiRange: json['data']['healthyBmiRange'],
+      healthyBmiRange: json['data']['healthy_bmi_range'],
       health: json['data']['health'],
     );
   }
